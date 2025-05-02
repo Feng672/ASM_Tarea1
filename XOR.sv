@@ -1,0 +1,12 @@
+module xor (input A, B, output Y);
+	// Declaración de cables internos
+	wire not_A, not_B;
+	wire and1, and2;
+	
+	//Instanciación explícita de puertas:
+	not inv1 (not_A, A); //~A
+	not inv2 (not_B, B); //~B
+	and and_gate1 (and1, A, not_B); //A & ~B
+	and and_gate2 (and2, not_A, B); //~A / B
+	or or_gate(Y, and1, and2); // and1 | and2
+endmodule

@@ -1,0 +1,76 @@
+|top
+clk => clk.IN1
+reset => reset.IN1
+boton => boton.IN1
+datos[0] => datos[0].IN1
+datos[1] => datos[1].IN1
+datos[2] => datos[2].IN1
+datos[3] => datos[3].IN1
+display[0] << decodificador_7seg:seg7.seg
+display[1] << decodificador_7seg:seg7.seg
+display[2] << decodificador_7seg:seg7.seg
+display[3] << decodificador_7seg:seg7.seg
+display[4] << decodificador_7seg:seg7.seg
+display[5] << decodificador_7seg:seg7.seg
+display[6] << decodificador_7seg:seg7.seg
+
+
+|top|sumador_parcial:SP
+datos[0] => datos[0].IN1
+datos[1] => datos[1].IN1
+datos[2] => datos[2].IN1
+datos[3] => datos[3].IN1
+resultado[0] <= xor_estructural:xor0_2.port0
+resultado[1] <= xor_estructural:xorand_xor.port0
+
+
+|top|sumador_parcial:SP|xor_estructural:xor0_2
+Y <= or_gate.DB_MAX_OUTPUT_PORT_TYPE
+A => and_gate1.IN0
+A => and_gate2.IN0
+B => and_gate2.IN1
+B => and_gate1.IN1
+
+
+|top|sumador_parcial:SP|xor_estructural:xor3_1
+Y <= or_gate.DB_MAX_OUTPUT_PORT_TYPE
+A => and_gate1.IN0
+A => and_gate2.IN0
+B => and_gate2.IN1
+B => and_gate1.IN1
+
+
+|top|sumador_parcial:SP|xor_estructural:xorand_xor
+Y <= or_gate.DB_MAX_OUTPUT_PORT_TYPE
+A => and_gate1.IN0
+A => and_gate2.IN0
+B => and_gate2.IN1
+B => and_gate1.IN1
+
+
+|top|flipflop:FF
+clk => ~NO_FANOUT~
+reset => salida[0]~reg0.ACLR
+reset => salida[1]~reg0.ACLR
+boton => salida[0]~reg0.CLK
+boton => salida[1]~reg0.CLK
+entrada[0] => salida[0]~reg0.DATAIN
+entrada[1] => salida[1]~reg0.DATAIN
+salida[0] <= salida[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+salida[1] <= salida[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|decodificador_7seg:seg7
+bin[0] => Decoder0.IN1
+bin[0] => seg[4].DATAIN
+bin[1] => Decoder0.IN0
+bin[1] => seg[6].DATAIN
+seg[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= <GND>
+seg[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= bin[0].DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= bin[1].DB_MAX_OUTPUT_PORT_TYPE
+
+

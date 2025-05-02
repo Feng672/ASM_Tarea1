@@ -1,0 +1,16 @@
+module top(
+    input clk, reset, boton,
+    input [3:0] datos,
+    output [6:0] display,
+    output [1:0] leds_test  // Opcional: para debug
+);
+    wire [1:0] suma_parcial;
+    wire [1:0] ff_out;
+    
+    sumador_parcial SP(.datos(datos), .resultado(suma_parcial));
+    flipflop FF(.clk(clk), .reset(reset), .boton(boton), 
+               .entrada(suma_parcial), .salida(ff_out));
+    decodificador_7seg seg7(.bin(ff_out), .seg(display));
+    
+    assign leds_test = ff_out;  // Ver resultado en LEDs
+endmodule

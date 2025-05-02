@@ -1,0 +1,167 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/AlePene/Documents/GitHub/ASM_Tarea1/simulation/modelsim
+vdecodificador_7seg
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1746144078
+!i10b 1
+!s100 YXTEHU4RPL]AjM`T42`?R0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1@PQ>zbm2SjKlei5VDgi12
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1746135099
+8C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/decodificador_7seg.sv
+FC:/Users/AlePene/Documents/GitHub/ASM_Tarea1/decodificador_7seg.sv
+!i122 3
+L0 1 14
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1746144078.000000
+!s107 C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/decodificador_7seg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/AlePene/Documents/GitHub/ASM_Tarea1|C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/decodificador_7seg.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/AlePene/Documents/GitHub/ASM_Tarea1
+Z9 tCvgOpt 0
+vflipflop
+R1
+Z10 !s110 1746144077
+!i10b 1
+!s100 P@OAk8Z>]fAmd6oagG9ma0
+R3
+ImgoUz^hk<Pe4aOdIe>6:_2
+R4
+S1
+R0
+w1746143016
+8C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/flipflop.sv
+FC:/Users/AlePene/Documents/GitHub/ASM_Tarea1/flipflop.sv
+!i122 2
+L0 1 12
+R5
+r1
+!s85 0
+31
+Z11 !s108 1746144077.000000
+!s107 C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/flipflop.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/AlePene/Documents/GitHub/ASM_Tarea1|C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/flipflop.sv|
+!i113 1
+R7
+R8
+R9
+vsumador_parcial
+R1
+R10
+!i10b 1
+!s100 ?_nXFD;6E6zhVL7ATGg<a0
+R3
+IS1hkZ5mHoa4ESNK<R9I_h3
+R4
+S1
+R0
+w1746143564
+8C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/sumador_parcial.sv
+FC:/Users/AlePene/Documents/GitHub/ASM_Tarea1/sumador_parcial.sv
+!i122 1
+L0 1 16
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/sumador_parcial.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/AlePene/Documents/GitHub/ASM_Tarea1|C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/sumador_parcial.sv|
+!i113 1
+R7
+R8
+R9
+vtb
+R1
+R2
+!i10b 1
+!s100 5]lRLS=4PIzb6mn0``i0O2
+R3
+IG^Ol95Z012Q>c=YQ;ZHlG1
+R4
+S1
+R0
+w1746144061
+8C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/tb.sv
+FC:/Users/AlePene/Documents/GitHub/ASM_Tarea1/tb.sv
+!i122 5
+L0 2 27
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/AlePene/Documents/GitHub/ASM_Tarea1|C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/tb.sv|
+!i113 1
+R7
+R8
+R9
+vtop
+R1
+R2
+!i10b 1
+!s100 NK<`]XP>5k7B:eM^`LZN:3
+R3
+I^b:FnflGS?TW8AkATdJU?2
+R4
+S1
+R0
+w1746144062
+8C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv
+FC:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv
+!i122 4
+L0 1 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/AlePene/Documents/GitHub/ASM_Tarea1|C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv|
+!i113 1
+R7
+R8
+R9
+vxor_estructural
+R1
+R10
+!i10b 1
+!s100 oEe6DZKFzTN33VFm8E`3k1
+R3
+IOR50U1<A;7dCh23kGASbT2
+R4
+S1
+R0
+w1746135431
+8C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/xor_estructural.sv
+FC:/Users/AlePene/Documents/GitHub/ASM_Tarea1/xor_estructural.sv
+!i122 0
+L0 1 13
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/xor_estructural.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/AlePene/Documents/GitHub/ASM_Tarea1|C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/xor_estructural.sv|
+!i113 1
+R7
+R8
+R9

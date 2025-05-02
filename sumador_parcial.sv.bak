@@ -1,0 +1,15 @@
+module sumador_parcial(
+    input [3:0] datos,
+    output reg [1:0] resultado  // Resultado de 2 bits (0-3)
+);
+    wire xor1, xor2, and1;
+    
+    // Suma: (datos[3] XOR datos[2]) + (datos[1] XOR datos[0])
+    xor_estructural xor3_2(.A(datos[3]), .B(datos[2]), .Y(xor1));
+    xor_estructural xor1_0(.A(datos[1]), .B(datos[0]), .Y(xor2));
+    and and_bit(.A(xor1), .B(xor2), .Y(and1));
+    
+    always @(*) begin
+        resultado = {xor1, and1};  // Concatenación para resultado de 2 bits
+    end
+endmodule
