@@ -6,13 +6,14 @@ datos[0] => datos[0].IN1
 datos[1] => datos[1].IN1
 datos[2] => datos[2].IN1
 datos[3] => datos[3].IN1
-display[0] << decodificador_7seg:seg7.seg
-display[1] << decodificador_7seg:seg7.seg
-display[2] << decodificador_7seg:seg7.seg
-display[3] << decodificador_7seg:seg7.seg
-display[4] << decodificador_7seg:seg7.seg
-display[5] << decodificador_7seg:seg7.seg
-display[6] << decodificador_7seg:seg7.seg
+display[0] <= decodificador_7seg:seg7.seg
+display[1] <= decodificador_7seg:seg7.seg
+display[2] <= decodificador_7seg:seg7.seg
+display[3] <= decodificador_7seg:seg7.seg
+display[4] <= decodificador_7seg:seg7.seg
+display[5] <= decodificador_7seg:seg7.seg
+display[6] <= decodificador_7seg:seg7.seg
+motor_out <= ff_out[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top|sumador_parcial:SP

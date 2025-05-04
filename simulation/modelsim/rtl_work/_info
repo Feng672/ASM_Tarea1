@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Users/AlePene/Documents/GitHub/ASM_Tarea1/simulation/modelsim
 vdecodificador_7seg
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1746144078
+Z2 !s110 1746343354
 !i10b 1
 !s100 YXTEHU4RPL]AjM`T42`?R0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1746144078.000000
+Z6 !s108 1746343354.000000
 !s107 C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/decodificador_7seg.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/AlePene/Documents/GitHub/ASM_Tarea1|C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/decodificador_7seg.sv|
 !i113 1
@@ -37,15 +37,15 @@ Z8 !s92 -sv -work work +incdir+C:/Users/AlePene/Documents/GitHub/ASM_Tarea1
 Z9 tCvgOpt 0
 vflipflop
 R1
-Z10 !s110 1746144077
+R2
 !i10b 1
-!s100 P@OAk8Z>]fAmd6oagG9ma0
+!s100 ?P2[WAh:2akN47Ha5aV_=2
 R3
-ImgoUz^hk<Pe4aOdIe>6:_2
+Il:TTGZFaiD<Zf?:UZKSJK3
 R4
 S1
 R0
-w1746143016
+w1746342524
 8C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/flipflop.sv
 FC:/Users/AlePene/Documents/GitHub/ASM_Tarea1/flipflop.sv
 !i122 2
@@ -54,7 +54,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1746144077.000000
+R6
 !s107 C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/flipflop.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/AlePene/Documents/GitHub/ASM_Tarea1|C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/flipflop.sv|
 !i113 1
@@ -63,7 +63,7 @@ R8
 R9
 vsumador_parcial
 R1
-R10
+R2
 !i10b 1
 !s100 ?_nXFD;6E6zhVL7ATGg<a0
 R3
@@ -80,7 +80,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/sumador_parcial.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/AlePene/Documents/GitHub/ASM_Tarea1|C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/sumador_parcial.sv|
 !i113 1
@@ -91,13 +91,13 @@ vtb
 R1
 R2
 !i10b 1
-!s100 5]lRLS=4PIzb6mn0``i0O2
+!s100 Ah9ce1z=W9l:IIdZ2fJeP1
 R3
-IG^Ol95Z012Q>c=YQ;ZHlG1
+I_eU<?m;lez?h5fHQg<AU?2
 R4
 S1
 R0
-w1746144061
+w1746343338
 8C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/tb.sv
 FC:/Users/AlePene/Documents/GitHub/ASM_Tarea1/tb.sv
 !i122 5
@@ -123,7 +123,7 @@ I^b:FnflGS?TW8AkATdJU?2
 R4
 S1
 R0
-w1746144062
+w1746342982
 8C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv
 FC:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv
 !i122 4
@@ -141,7 +141,7 @@ R8
 R9
 vxor_estructural
 R1
-R10
+R2
 !i10b 1
 !s100 oEe6DZKFzTN33VFm8E`3k1
 R3
@@ -158,7 +158,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/xor_estructural.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/AlePene/Documents/GitHub/ASM_Tarea1|C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/xor_estructural.sv|
 !i113 1

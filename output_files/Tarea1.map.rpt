@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Tarea1
-Thu May  1 17:52:49 2025
+Sun May  4 01:20:19 2025
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Thu May  1 17:52:49 2025          ;
+; Analysis & Elaboration Status ; Successful - Sun May  4 01:20:19 2025          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; Tarea1                                         ;
 ; Top-level Entity Name         ; top                                            ;
@@ -161,7 +161,7 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Thu May  1 17:52:44 2025
+    Info: Processing started: Sun May  4 01:20:14 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Tarea1 -c Tarea1 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 10 of the 10 processors detected
@@ -178,14 +178,14 @@ Info (12021): Found 1 design units, including 1 entities, in source file decodif
 Info (12021): Found 1 design units, including 1 entities, in source file top.sv
     Info (12023): Found entity 1: top File: C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv Line: 1
 Info (12127): Elaborating entity "top" for the top level hierarchy
-Info (12128): Elaborating entity "sumador_parcial" for hierarchy "sumador_parcial:SP" File: C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv Line: 9
+Info (12128): Elaborating entity "sumador_parcial" for hierarchy "sumador_parcial:SP" File: C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv Line: 10
 Info (12128): Elaborating entity "xor_estructural" for hierarchy "sumador_parcial:SP|xor_estructural:xor0_2" File: C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/sumador_parcial.sv Line: 8
-Info (12128): Elaborating entity "flipflop" for hierarchy "flipflop:FF" File: C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv Line: 11
-Info (12128): Elaborating entity "decodificador_7seg" for hierarchy "decodificador_7seg:seg7" File: C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv Line: 12
+Info (12128): Elaborating entity "flipflop" for hierarchy "flipflop:FF" File: C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv Line: 12
+Info (12128): Elaborating entity "decodificador_7seg" for hierarchy "decodificador_7seg:seg7" File: C:/Users/AlePene/Documents/GitHub/ASM_Tarea1/top.sv Line: 13
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4792 megabytes
-    Info: Processing ended: Thu May  1 17:52:49 2025
+    Info: Processing ended: Sun May  4 01:20:19 2025
     Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:14
+    Info: Total CPU time (on all processors): 00:00:15
 
 

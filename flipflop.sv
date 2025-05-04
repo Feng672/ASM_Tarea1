@@ -3,8 +3,8 @@ module flipflop(
     input [1:0] entrada,
     output reg [1:0] salida
 );
-    always @(posedge boton or posedge reset) begin 
-        if (reset) 
+    always @(negedge boton or negedge reset) begin 
+        if (!reset) 
             salida <= 2'b00;
         else 
             salida <= entrada;
